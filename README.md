@@ -1,4 +1,8 @@
 # How-to-add-custom-axis-label-in-Blazor-chart
+
+This article explains how to add custom axis label in Blazor chart.
+
+**Axis label Customization using OnAxislabelRenderEvent**
  
 Axis label in [Blazor Chart](https://www.syncfusion.com/blazor-components/blazor-charts) has been generated based on the provided data points. The charts support you to change the entire text with your desired text.
 
@@ -32,6 +36,7 @@ The following code example illustrates this.
 </SfChart>
 
 @code {
+    
     public class SalesInfo
     {
         public string Month { get; set; }
@@ -85,6 +90,6 @@ You can refer to our [Blazor Chart feature tour](https://www.syncfusion.com/blaz
 
 For current customers, you can check out our components from the [License and Downloads](https://www.syncfusion.com/sales/teamlicense) page. If you are new to Syncfusion, you can try our 30-day [free trial](https://www.syncfusion.com/downloads/blazor) to check out our other controls.
 
-If you have any queries or require clarifications, please let us know in the comments section below. You can also contact us through our [support forums](https://www.syncfusion.com/forums), [Direct-Trac](https://support.syncfusion.com/create), or [feedback portal](https://www.syncfusion.com/feedback/blazor-components?control=charts). We are always happy to assist you!
+If you have any queries or require clarifications, please let us know in the comments section below. You can also contact us through our [support forums](https://www.syncfusion.com/forums), [support portal](https://support.syncfusion.com/create), or [feedback portal](https://www.syncfusion.com/feedback/blazor-components?control=charts). We are always happy to assist you!
 
 
